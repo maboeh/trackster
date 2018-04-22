@@ -1,6 +1,7 @@
                 html {
                     font-size: 16px;
                 }
+                /*header*/
                 
                 #header {
                     background-color: rgb(35, 2, 63);
@@ -22,9 +23,48 @@
                     padding: 0.4rem;
                 }
                 
+                #header input:focus {
+                    color: rgb(74, 74, 74);
+                    outline: none;
+                }
+                
                 #header i {
                     background-color: rgb(255, 102, 204);
                     border-radius: 1.7rem;
                     text-align: center;
                     padding: 0.3rem;
+                }
+                
+                #header i:hover {
+                    background-color: rgb(255, 0, 171);
+                }
+                /*track-list-header*/
+                
+                #track-header {
+                    background-color: rgb(104, 0, 255);
+                    color: rgb(255, 255, 255);
+                    padding: 0.4rem;
+                }
+                
+                #track-header p {
+                    margin-top: 0.4rem;
+                    margin-bottom: 0.4rem;
+                }
+                /*tracks*/
+                
+                #tracks-row {
+                    background-color: rgb(239, 237, 242);
+                    padding: 0.4rem;
+                    border-bottom: solid 1px rgb(204, 204, 204);
+                }
+                
+                #tracks-row p {
+                    margin-top: 0.6rem;
+                    margin-bottom: 0.4rem;
+                }
+                
+                #tracks-row i {
+                    color: rgb(255, 102, 204);
+                    padding: 0.3rem;
+                    text-align: center;
                 }

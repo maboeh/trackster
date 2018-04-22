@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>trackster</title>
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
@@ -20,12 +23,19 @@
     <div class="container-fluid">
         <div class="row" id="header">
 
-            <h1 class="col-md-7 col-xs-offset-1">trackster</h1>
-            <input class="col-md-2" type="search" placeholder="search">
-            <i class="fas fa-search fa-2x col-md-1"></i>
+            <h1 class="col-md-7 col-md-offset-1">trackster</h1>
+            <input id="search-string" class="col-md-2" type="search" placeholder="Search">
+            <i id="search-button" class="fas fa-search fa-2x col-md-1"></i>
 
         </div>
+        <div class="row" id="track-header">
+            <p class="col-md-4 col-md-offset-2">Song</p>
+            <p class="col-md-2">Artist</p>
+            <p class="col-md-2">Album Art</p>
+            <p class="col-md-2">Listeners</p>
+        </div>
     </div>
+    <div class="container-fluid" id="songs"></div>
 
 </body>
 
