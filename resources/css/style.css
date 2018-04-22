@@ -1,0 +1,30 @@
+                html {
+                    font-size: 16px;
+                }
+                
+                #header {
+                    background-color: rgb(35, 2, 63);
+                    padding: 2rem;
+                }
+                
+                #header h1 {
+                    font-family: Righteous;
+                    font-size: 2.5rem;
+                    color: rgb(255, 0, 171);
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                
+                #header input {
+                    color: rgb(191, 191, 191);
+                    border-radius: 1.7rem;
+                    margin-right: .625rem;
+                    padding: 0.4rem;
+                }
+                
+                #header i {
+                    background-color: rgb(255, 102, 204);
+                    border-radius: 1.7rem;
+                    text-align: center;
+                    padding: 0.3rem;
+                }
